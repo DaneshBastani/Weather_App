@@ -11,7 +11,7 @@ class data_city(FlaskForm):
 
 # API for Weather
 URL='https://api.openweathermap.org/data/2.5/weather?'
-API_KEY='3a52b9af65a66f3bfeaf3be464debfdb'
+API_KEY='Enter Your API-KEY'
 
 app  = Flask(__name__)
 app.config['SECRET_KEY']='SECRET_KEY'
